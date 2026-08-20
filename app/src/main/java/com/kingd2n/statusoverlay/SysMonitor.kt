@@ -7,7 +7,7 @@ import java.io.File
  * Membaca data sensor CPU dan baterai langsung dari sysfs.
  *
  * Konvensi standar kernel Linux/Android:
- *  - thermal_zone*/temp             -> millidegree Celsius (dibagi 1000)
+ *  - thermal_zoneN/temp             -> millidegree Celsius (dibagi 1000)
  *  - power_supply/battery/temp      -> per-sepuluh derajat Celsius (dibagi 10)
  *  - power_supply/battery/current_now -> microampere (dibagi 1000 untuk mA)
  *
